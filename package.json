@@ -14,7 +14,8 @@
   },
   "devDependencies": {
     "@dcl/eslint-config": "^1.0.1",
-    "decentraland-ecs": "latest"
+    "@dcl/kernel": "https://sdk-team-cdn.decentraland.org/@dcl/kernel/branch/experimental/api-to-send-bytes-to-renderer/dcl-kernel-1.0.0-2260152317.commit-92f7a52.tgz",
+    "decentraland-ecs": "https://sdk-team-cdn.decentraland.org/@dcl/js-sdk-toolchain/branch/experimental/add-api-declaration/decentraland-ecs-6.10.1-2259029917.commit-0a7ce76.tgz"
   },
   "engines": {
     "node": ">=14.0.0",
@@ -22,6 +23,7 @@
     "yarn": "please use npm"
   },
   "dependencies": {
-    "@dcl/ecs": "file:../../ecs"
+    "@dcl/ecs": "https://sdk-team-cdn.decentraland.org/@dcl/ecs/branch/experimental/integration-with-old-toolchain/dcl-ecs-1.0.0-2260017911.commit-a5ecab9.tgz",
+    "protobufjs": "^6.11.2"
   }
 }
