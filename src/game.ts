@@ -1,7 +1,7 @@
 /// --- Set up a system ---
 
-import { init, newEngine } from "./new-ecs"
-import { setup } from "./scene"
+import { init } from './new-ecs'
+import { setup } from './scene'
 
 class RotatorSystem {
   // this group will contain every entity that has a Transform component

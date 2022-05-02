@@ -15,6 +15,8 @@ export function init() {
   const newEngine = createNewEngine({
     send: (data: Uint8Array) => {
       sendToRenderer(base64EncArr(data))
+        .then()
+        .catch((err) => log(err))
     },
     onData: (_cb: (data: Uint8Array) => void) => {
       log('should be call cb if I receive data from renderer or other places')
